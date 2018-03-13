@@ -11,7 +11,7 @@
 </head>
 <body>
 		<div id="container">
-			<h1>Hola Mundo via CodeIgniter</h1>
+			<h1><?=$Mensaje ?> via CodeIgniter</h1>
 		</div>
 </body>
 </html>
