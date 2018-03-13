@@ -1,3 +1,6 @@
 <?php
-echo "Hola mundo!";
+  for ($i=0; $i < 10; $i++) {
+      echo "Hola mundo!<br>";
+      
+  }
 ?>
