@@ -26,7 +26,9 @@ class ConexionBD
     }
     if (mysqli_num_rows($resultado) > 0) {
       $p=0;
-      while ($Columna = mysqli_fetch_assoc($resultado)) {
+      //Obtengo el nombres de las columnas de la tabla
+      while ($Columna = mysqli_fetch_assoc($resultado))
+      {
         $array[$p] = $Columna['Field'];
         $p++;
       }
